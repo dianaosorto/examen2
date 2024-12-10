@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+root {
+color-red: #c81f26;
+    color-green: #00b494;
+    color-title: #2a2a32;
+    color-content: #2a2a32;
+    font-title: 'Allura', cursive;
+    font-body: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+    color: var(color content);
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero {
+    position: relative;
+}
+#hero h1.title-large {
+  font-family: var(--font-title);
+  font-size:150px;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#hero .carousel-item {
+    height: 500px;
+}
+
+#hero .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+#hero .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+#hero p {
+      font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#hero .btn {
+    background-color: var(--color-red);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#hero .btn:hover {
+    background-color: #a0161e;
+}
+
+#gifts {
+    padding: 60px 0;
+}
+
+#gifts img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#gifts h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-red);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#gifts h2 {
+    font-family: 'Allura', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#gifts p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#gifts .btn {
+    background-color: var(--color-green);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#gifts .btn:hover {
+    background-color: #008060;
+}
+
+#new-arrivals {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#new-arrivals h2 {
+    font-family: var('Allura', cursive);
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#new-arrivals .card {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#new-arrivals .card img {
+    border-radius: 5px;
+}
+
+
+#new-arrivals .card .card-text {
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: var('Montserrat', sans-serif);
+    font-weight: 500;
+}
+
+#new-arrivals .card .text-muted {
+    font-size: 14px;
+    color: #777;
+}
+
+
+#cta {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+#cta h2 {
+    font-family: var('Allura', cursive);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#cta p {
+    font-family: var('Montserrat', sans-serif);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#cta .btn {
+    background-color: white;
+    color: var(colorred);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#cta .btn:hover {
+    background-color: #f2f2f2;
+}
+
+
+#instagram {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+#instagram h2 {
+    font-family: var('Allura', cursive);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#instagram i {
+    font-size: 40px;
+    color: var(--color-red);
+    margin-bottom: 10px;
+}
+
+#instagram h3 {
+    font-family: var('Montserrat', sans-serif);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#instagram p {
+    font-size: 16px;
+    color: #666;
+}
+
+#instagram i{
+	color: var(color rojo);
+	font-size: 40px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+	background-color: #FAFAFA;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(color rojo);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
